@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Abel', sans-serif;
+    height: 100vh;
+}
+
+header {
+    height: 15%;
+}
+
+.Barre{
+    background-color: whitesmoke;
+    /* to align them  in the same line */
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Barre :hover{
+    background-color: rgb(247, 146, 30);;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.Barre img{
+    width: 170px;
+    cursor: pointer;
+}
+
+.Barre ul {
+    list-style: none;
+padding: 0px;
+}
+
+.Barre ul li {
+    background-color: rgb(247, 146, 30);
+    
+    
+}
+
+.Barre a {
+    display: block;
+          /* to take as much space as possible */
+    height: 100px;
+    background-color:whitesmoke;
+    width: 150px;
+    line-height: 99px;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+         /* to slow the hover's action */
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 532px;
+    background-color: rgb(247, 146, 30);
+    height: 100%;
+}
+
+.test {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.Edition {
+    margin-top: 20px;
+}
+
+.fas,.fab {
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.test p, .teste2 p {
+   border: 2px solid  palegoldenrod;
+   border-radius: 150px;
+   padding: 10px 15px;
+   font-size: 20px;
+   border-radius:8px; 
+   box-shadow: 14px 4px 2px rgb(200, 130, 0);  
+}
+
+/* .Barre Barre {
+    background-color:  rgb(247, 146, 30);
+} */
+
+.fas:hover{
+    
+    cursor: pointer;
+}
+.fab:hover {
+    
+    cursor: pointer;
+}
+.Home p {
+    cursor: pointer;
+}
+
+.fa-eye:hover{
+    color: chocolate;
+}
+
+/* .fa-product-hunt:hover{
+    font-size: 100px;
+} */
+
+/* .Main-menu:hover {
+    font-size: 30px;
+}
+.Saisie-client:hover {
+    font-size: 30px;
+}
+.Saisie-produit:hover {
+    font-size: 30px;
+}
+.Edition:hover {
+    font-size: 30px;
+} */
+
+.Main-menu, .Saisie-client, .Saisie-produit, .Edition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    height: 214px;
+}
+
+input {
+    padding: 8px;
+    width: 461px;
+    margin: 4px 55px;
+    font-size: 16px;
+}
+
+fieldset {
+    border:3px solid black;
+}
+
+button {
+    padding: 10px 20px;
+     margin: 19px;
+    border-radius: 4px;
+    border: none;
+    background-color: seagreen;
+    color: whitesmoke;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 5px 6px 8px seagreen;
+    background-color: green;
+    
+}
+
+.container-menu p {
+    font-size: 20px;
+    margin: 5px;
+    padding-left: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container-lol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-menu button {
+    margin-top: 15px ;
+    padding: 10px 20px;
+    margin-bottom: 30px ;
+}
+
+.div-menu,.selection-div {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+}
+
+select {
+    width: 250px;
+    padding: 5px;
+    height: 38px;
+}
+
+.main-menu {
+    background-color: cornsilk;
+    border-radius:8px; 
+    box-shadow: 14px 4px 2px rgb(200, 130, 0);
+    padding: 20px;
+    /* height: 50%; */
+    width: 70%;
+}
+
+.main-menu-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 13px;
+    font-size: 22px;
+}
+.edition-div {
+    background-color: cornsilk;
+    border-radius:8px; 
+    box-shadow: 14px 4px 2px rgb(200, 130, 0);
+    padding: 20px;
+    /* height: 50%; */
+    width: 70%;
+}
+
+ .inscription {
+    font-size: 20px;
+    margin: 5px;
+    padding-left: 30px;
+    text-align: center;
+    padding-top: 10px;
+} 
+.motdepasse1 i {
+    font-size: 18px;
+    position: relative;
+    left: -86px;
+    top: 1px;
+}
+.creeacc p {
+    font-size: small;
+    text-decoration: underline;
+}
